@@ -144,7 +144,7 @@ void CheckBounds(PVector pos, PVector vel){
     }
 }
 
-// go throught all existing balls and kill, or, color and move them
+// go through all existing balls and kill, or, color and move them
 void renderBalls(){
   for(int i = position.size()-1; i >= 0; i--){
     
